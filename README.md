@@ -3,7 +3,7 @@
 ## I'm a Student and Developer!
 
 - 🔭 I’m currently in final year in Informatic Technology!
-- 🌱 I’m currently learning React js & Docker
+- 🌱 I’m currently learning React js and Docker
 - 🥅 2020 Goals: Building my github project
 
 ### Connect with me:
