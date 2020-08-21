@@ -47,6 +47,8 @@
 
 ---
 <!--START_SECTION:activity-->
+1. ❗️ Opened issue [#1](https://github.com//Xefyn/Xefyn/issues/1) in [Xefyn/Xefyn](https://github.com//Xefyn/Xefyn)
+<!--END_SECTION:activity-->
 
 
 
