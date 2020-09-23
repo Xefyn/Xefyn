@@ -49,7 +49,7 @@
 
 ---
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#13](https://github.com//jamesgeorge007/github-activity-readme/issues/13) in [jamesgeorge007/github-activity-readme](https://github.com//jamesgeorge007/github-activity-readme)
+1. 💪 Opened PR [#30981](https://github.com//firstcontributions/first-contributions/pull/30981) in [firstcontributions/first-contributions](https://github.com//firstcontributions/first-contributions)
 <!--END_SECTION:activity-->
 
 
