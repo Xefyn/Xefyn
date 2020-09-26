@@ -49,7 +49,7 @@
 
 ---
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#30981](https://github.com//firstcontributions/first-contributions/pull/30981) in [firstcontributions/first-contributions](https://github.com//firstcontributions/first-contributions)
+1. 💪 Opened PR [#30981](https://github.com/firstcontributions/first-contributions/pull/30981) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 <!--END_SECTION:activity-->
 
 
