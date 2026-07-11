@@ -1,60 +1,63 @@
-### Hi there, I'm Richard - aka Xefyn 👋
+<div align="center">
 
-## I'm a Student and Developer!
+# Richard Ivan
 
-- 🔭 I’m currently in final year in Informatic Technology!
-- 🌱 I’m currently learning React js and Docker
-- 🥅 2020 Goals: Building my github project
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Full-Stack+Developer;Next.js+%E2%80%A2+React+%E2%80%A2+TypeScript;Prisma+%E2%80%A2+PostgreSQL;5%2B+years+building+reliable+web+systems" alt="Typing animation" />
 
-### Connect with me:
+<br/>
 
-[<img align="left" alt="Xefyn | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Xefyn | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="Xefyn | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />][discord]
-[<img align="left" alt="Xefyn | Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
-
-<br />
-
-### **Languages and Tools:**
-<div align='center'>
-<code><img alt="HTML5" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" ></code>
-<code><img alt="CSS3" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /></code>
-<code><img alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></code>
-<code><img alt="React" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" /></code>
-<code><img alt="Node.js" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" /></code>
-<code><img alt="Flutter" width="30px" src="https://img.icons8.com/color/48/000000/flutter.png" /></code>
-
-<br />
-<code><img alt="Visual Studio Code" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
-<code><img alt="SQL" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" /></code>
-<code><img alt="MySQL" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" /></code>
-<code><img alt="Git" width="30px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" /></code>
-<code><img alt="GitHub" width="30px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" /></code>
-<code><img alt="Docker" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" /></code>
-<code><img alt="Photoshop" width="30px" src="https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-line.svg" /></code>
-
-<code><img alt="Indonesia" width="40px" src="https://img.icons8.com/color/48/000000/indonesia.png" /></code>
-<code><img alt="English" width="40px" src="https://img.icons8.com/cute-clipart/64/000000/usa.png" /></code>
-<code><img alt="Germany" width="40px" src="https://img.icons8.com/cute-clipart/64/000000/germany.png" /></code>
+[![Portfolio](https://img.shields.io/badge/Portfolio-xefyn.com-090D12?style=flat-square&logo=googlechrome&logoColor=white)](https://xefyn.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richard-ivan-5149b71a2/)
+[![Telegram](https://img.shields.io/badge/Telegram-Message-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Xefyn)
+[![Discord](https://img.shields.io/badge/Discord-Chat-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/332374259026493441)
 
 </div>
-<br />
 
----
-<div>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=Xefyn&show_icons=true&line_height=27&include_all_commits=true&count_private=true" />
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xefyn&hide=lua" alt="Xefyn's github stats" />
-<div>
-<br />
+<br/>
 
----
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#30981](https://github.com/firstcontributions/first-contributions/pull/30981) in [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
-<!--END_SECTION:activity-->
+```typescript
+const richard = {
+  role: "Full-Stack Developer",
+  education: "MS Computer Science @ NTUST 🇹🇼",
+  experience: "5+ years building reliable web systems",
+  location: "Indonesia 🇮🇩",
+  stack: {
+    frontend: ["Next.js", "React", "TypeScript"],
+    backend: ["Node.js", "Prisma", "PostgreSQL"],
+    tooling: ["Docker", "Git"],
+  },
+  languages: ["Indonesian", "English", "German"],
+} satisfies Developer;
+```
 
+<br/>
 
+## 🛠️ Tech Stack
 
-[instagram]: https://www.instagram.com/richardivan10/
-[linkedin]: https://www.linkedin.com/in/richard-ivan-5149b71a2/
-[discord]: https://discord.com/users/332374259026493441
-[telegram]: https://t.me/Xefyn
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+<br/>
+
+## 📈 Stats
+
+<div align="center">
+
+<img height="170" src="https://github-stats-extended.vercel.app/api?username=Xefyn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+<img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Xefyn&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+💼 Open to interesting projects and collaboration — find my work at [xefyn.com](https://xefyn.com)
+
+</div>
