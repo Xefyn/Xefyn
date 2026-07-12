@@ -1,0 +1,111 @@
+<svg width="680" height="1230" viewBox="0 0 680 1230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc stats-desc">
+  <title id="title">Richard Ivan — Full-Stack Developer</title>
+  <desc id="desc">Richard Ivan's mobile developer profile showing his stack, experience, education, and availability.</desc>
+  <desc id="stats-desc">9 repositories, 35 authored commits, 18,470 lines added, and 376 lines removed.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="680" y2="1230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D12"/>
+      <stop offset="0.64" stop-color="#10161F"/>
+      <stop offset="1" stop-color="#10233C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(580 710) rotate(180) scale(360 350)">
+      <stop stop-color="#2F80ED" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#2F80ED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94A3B3" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="statusGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="680" height="1230" rx="24" fill="url(#background)"/>
+  <rect x="1" y="1" width="678" height="1228" rx="23" stroke="#223042" stroke-width="2"/>
+  <rect width="680" height="1230" rx="24" fill="url(#grid)"/>
+  <rect width="680" height="1230" rx="24" fill="url(#glow)"/>
+
+  <g font-family="Arial, DejaVu Sans, sans-serif">
+    <text x="42" y="62" fill="#64748B" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14" letter-spacing="2">XEFYN / DEVELOPER PROFILE</text>
+    <text x="42" y="139" fill="#E8EDF4" font-size="52" font-weight="700" letter-spacing="-1">Richard Ivan</text>
+    <text x="42" y="181" fill="#4E9EFF" font-size="25" font-weight="700">Full-Stack Developer</text>
+    <text x="42" y="222" fill="#94A3B3" font-size="17">Reliable web systems, from database to interface.</text>
+
+    <g transform="translate(28 265)">
+      <rect width="624" height="588" rx="18" fill="#0B1017" stroke="#223042" stroke-width="2"/>
+      <rect x="1" y="1" width="622" height="48" rx="17" fill="#10161F"/>
+      <path d="M1 49H623" stroke="#223042"/>
+      <circle cx="26" cy="25" r="6" fill="#FF5F57"/>
+      <circle cx="47" cy="25" r="6" fill="#FEBC2E"/>
+      <circle cx="68" cy="25" r="6" fill="#3FDD78"/>
+      <text x="591" y="31" fill="#64748B" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="13" text-anchor="end">xefyn@dev:~</text>
+
+      <g font-family="Consolas, DejaVu Sans Mono, monospace" font-size="18">
+        <text x="30" y="89" fill="#3FDD78">$</text>
+        <text x="51" y="89" fill="#E8EDF4">whoami</text>
+        <text x="30" y="123" fill="#94A3B3">richard-ivan · full-stack developer</text>
+
+        <text x="30" y="169" fill="#3FDD78">$</text>
+        <text x="51" y="169" fill="#E8EDF4">cat stack.json</text>
+        <text x="30" y="203" fill="#E8EDF4">{</text>
+        <text x="54" y="237" fill="#4E9EFF">"frontend"</text>
+        <text x="162" y="237" fill="#E8EDF4">: [</text>
+        <text x="195" y="237" fill="#3FDD78">"next.js", "react", "typescript"</text>
+        <text x="506" y="237" fill="#E8EDF4">],</text>
+        <text x="54" y="271" fill="#4E9EFF">"backend"</text>
+        <text x="151" y="271" fill="#E8EDF4">:  [</text>
+        <text x="195" y="271" fill="#3FDD78">"node", "prisma", "postgresql"</text>
+        <text x="517" y="271" fill="#E8EDF4">]</text>
+        <text x="30" y="305" fill="#E8EDF4">}</text>
+
+        <text x="30" y="351" fill="#3FDD78">$</text>
+        <text x="51" y="351" fill="#E8EDF4">uptime</text>
+        <text x="30" y="385" fill="#94A3B3">5+ years · taiwan + indonesia</text>
+
+        <text x="30" y="431" fill="#3FDD78">$</text>
+        <text x="51" y="431" fill="#E8EDF4">cat education</text>
+        <text x="30" y="465" fill="#94A3B3">MS Computer Science · NTUST, Taiwan</text>
+
+        <text x="30" y="511" fill="#3FDD78">$</text>
+        <text x="51" y="511" fill="#E8EDF4">./status</text>
+        <circle cx="36" cy="549" r="6" fill="#3FDD78" filter="url(#statusGlow)"/>
+        <text x="56" y="555" fill="#94A3B3">open to full-time roles &amp; freelance projects</text>
+      </g>
+    </g>
+
+    <path d="M28 883H652" stroke="#223042"/>
+    <circle cx="35" cy="920" r="6" fill="#3FDD78" filter="url(#statusGlow)"/>
+    <text x="54" y="927" fill="#E8EDF4" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="20" font-weight="700">$ github --stats</text>
+
+    <g>
+      <rect x="28" y="952" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
+      <text id="stat-repositories" x="52" y="999" fill="#E8EDF4" font-size="32" font-weight="700">9</text>
+      <text x="52" y="1032" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">repositories</text>
+      <rect x="299" y="974" width="6" height="61" rx="3" fill="#4E9EFF"/>
+    </g>
+
+    <g>
+      <rect x="352" y="952" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
+      <text id="stat-commits" x="376" y="999" fill="#E8EDF4" font-size="32" font-weight="700">35</text>
+      <text x="376" y="1032" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">authored commits</text>
+      <rect x="623" y="974" width="6" height="61" rx="3" fill="#4E9EFF"/>
+    </g>
+
+    <g>
+      <rect x="28" y="1077" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
+      <text id="stat-additions" x="52" y="1124" fill="#3FDD78" font-size="32" font-weight="700">+18,470</text>
+      <text x="52" y="1157" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">lines added</text>
+      <rect x="299" y="1099" width="6" height="61" rx="3" fill="#3FDD78"/>
+    </g>
+
+    <g>
+      <rect x="352" y="1077" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
+      <text id="stat-deletions" x="376" y="1124" fill="#FF6B6B" font-size="32" font-weight="700">−376</text>
+      <text x="376" y="1157" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">lines removed</text>
+      <rect x="623" y="1099" width="6" height="61" rx="3" fill="#FF6B6B"/>
+    </g>
+
+    <text id="stat-scope" x="340" y="1207" fill="#64748B" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="12" text-anchor="middle">public · 5 non-fork repos · merges excluded · 12 Jul 2026</text>
+  </g>
+</svg>

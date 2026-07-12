@@ -1,0 +1,38 @@
+name: Update profile statistics
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate statistics card
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_PAT }}
+        run: >-
+          python scripts/generate_github_stats.py
+          --username "${{ github.repository_owner }}"
+          --svg profile/hero.svg
+          --svg profile/hero-mobile.svg
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/hero.svg profile/hero-mobile.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update profile statistics"
+          git push
