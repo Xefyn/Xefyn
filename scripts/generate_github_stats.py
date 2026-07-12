@@ -223,6 +223,19 @@ def update_svg(path: Path, stats: ProfileStats, updated_at: datetime) -> None:
     path.write_text(svg, encoding="utf-8", newline="\n")
 
 
+def update_readme_cache(path: Path, updated_at: datetime) -> None:
+    """Change the hero query string so GitHub does not serve a stale SVG."""
+    cache_key = updated_at.strftime("%Y%m%d%H%M%S")
+    content = path.read_text(encoding="utf-8")
+    pattern = re.compile(
+        r"(profile/hero(?:-mobile)?\.svg)(?:\?v=[A-Za-z0-9_-]+)?"
+    )
+    content, count = pattern.subn(rf"\g<1>?v={cache_key}", content)
+    if count != 2:
+        raise RuntimeError(f"Expected two hero image references in {path}; found {count}")
+    path.write_text(content, encoding="utf-8", newline="\n")
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--username", required=True, help="GitHub username")
@@ -232,6 +245,12 @@ def parse_args() -> argparse.Namespace:
         action="append",
         type=Path,
         help="Existing hero SVG to update; repeat for multiple layouts",
+    )
+    parser.add_argument(
+        "--readme",
+        required=True,
+        type=Path,
+        help="README whose hero URLs receive a cache-busting query string",
     )
     return parser.parse_args()
 
@@ -243,6 +262,7 @@ def main() -> int:
     updated_at = datetime.now(timezone.utc)
     for path in args.svg:
         update_svg(path, stats, updated_at)
+    update_readme_cache(args.readme, updated_at)
     print(
         f"Updated {len(args.svg)} hero SVGs: {stats.repositories} repos, "
         f"{stats.commits} commits, +{stats.additions}/-{stats.deletions} lines"
