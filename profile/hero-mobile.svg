@@ -1,7 +1,7 @@
 <svg width="680" height="1230" viewBox="0 0 680 1230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc stats-desc">
   <title id="title">Richard Ivan — Full-Stack Developer</title>
   <desc id="desc">Richard Ivan's mobile developer profile showing his stack, experience, education, and availability.</desc>
-  <desc id="stats-desc">23 repositories, 368 authored commits, 376,087 lines added, and 134,010 lines removed.</desc>
+  <desc id="stats-desc">23 repositories, 384 authored commits, 425,058 lines added, and 137,058 lines removed.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="680" y2="1230" gradientUnits="userSpaceOnUse">
       <stop stop-color="#090D12"/>
@@ -87,25 +87,25 @@
 
     <g>
       <rect x="352" y="952" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
-      <text id="stat-commits" x="376" y="999" fill="#E8EDF4" font-size="32" font-weight="700">368</text>
+      <text id="stat-commits" x="376" y="999" fill="#E8EDF4" font-size="32" font-weight="700">384</text>
       <text x="376" y="1032" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">authored commits</text>
       <rect x="623" y="974" width="6" height="61" rx="3" fill="#4E9EFF"/>
     </g>
 
     <g>
       <rect x="28" y="1077" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
-      <text id="stat-additions" x="52" y="1124" fill="#3FDD78" font-size="32" font-weight="700">+376,087</text>
+      <text id="stat-additions" x="52" y="1124" fill="#3FDD78" font-size="32" font-weight="700">+425,058</text>
       <text x="52" y="1157" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">lines added</text>
       <rect x="299" y="1099" width="6" height="61" rx="3" fill="#3FDD78"/>
     </g>
 
     <g>
       <rect x="352" y="1077" width="300" height="105" rx="14" fill="#10161F" stroke="#223042"/>
-      <text id="stat-deletions" x="376" y="1124" fill="#FF6B6B" font-size="32" font-weight="700">−134,010</text>
+      <text id="stat-deletions" x="376" y="1124" fill="#FF6B6B" font-size="32" font-weight="700">−137,058</text>
       <text x="376" y="1157" fill="#94A3B3" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="14">lines removed</text>
       <rect x="623" y="1099" width="6" height="61" rx="3" fill="#FF6B6B"/>
     </g>
 
-    <text id="stat-scope" x="340" y="1207" fill="#64748B" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="12" text-anchor="middle">public + private · 19 non-fork repos · merges excluded · 13 Jul 2026</text>
+    <text id="stat-scope" x="340" y="1207" fill="#64748B" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="12" text-anchor="middle">public + private · 19 non-fork repos · merges excluded · 20 Jul 2026</text>
   </g>
 </svg>
