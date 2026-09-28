@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="profile/hero-mobile.svg?v=20260921090200" />
-  <img src="profile/hero.svg?v=20260921090200" width="100%" alt="Richard Ivan — Full-Stack Developer with 5+ years of experience across Taiwan and Indonesia" />
+  <source media="(max-width: 600px)" srcset="profile/hero-mobile.svg?v=20260928095230" />
+  <img src="profile/hero.svg?v=20260928095230" width="100%" alt="Richard Ivan — Full-Stack Developer with 5+ years of experience across Taiwan and Indonesia" />
 </picture>
 
 <br/>
